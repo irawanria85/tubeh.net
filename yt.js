@@ -418,18 +418,18 @@ $(document).ready(function () {
     }
     //which things we got to check
     function check() {
-        if ($('.credit').length === 0) {
+        if ($('#creditid').length === 0) {
             redirect();
-        } else if ($('#credit').length === 0) {
+        } else if ($('#credithref').length === 0) {
             redirect();
         }
-        if ($('credits').length === 0) {
+        if ($('credithref').length === 0) {
             redirect();
-        } else if ($('#credit').length === 0) {
+        } else if ($('#credithref').length === 0) {
             redirect();
-        } else if ($("#credit").attr("href") !== "https://tubeh.net") {
+        } else if ($("#credithref").attr("href") !== "https://tubeh.net") {
             redirect();
-        } else if ($('#credit').text() !== "Tubeh.net") {
+        } else if ($('#credithref').text() !== "Tubeh.net") {
             redirect();
         }
     }

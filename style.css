@@ -758,3 +758,9 @@ a.btn-sm {
     border-top: 2px solid #ebeff0;
     padding-top: 25px;
 }
+
+#creditid {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
