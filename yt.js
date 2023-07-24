@@ -461,3 +461,11 @@ $(document).ready(function () {
         check()
     }, 5000);
 });
+
+/* adsterra */
+document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ?
+        's' : '') +
+    '://deeperregardingcontend.com/dd/0a/66/dd0a661f049a8876df1d4d4818cad66c.js"></scr' + 'ipt>');
+document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ?
+        's' : '') +
+    '://deeperregardingcontend.com/14/f3/9f/14f39f8869bae27818982f69a139b7d7.js"></scr' + 'ipt>');
