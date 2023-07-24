@@ -123,7 +123,7 @@ shortcut = {
 });
 
 /* klik body */
-var valued = true
+var canClick = true
 
 function addEvent(obj, eventName, func) {
     if (obj.attachEvent) {
@@ -136,10 +136,13 @@ function addEvent(obj, eventName, func) {
 }
 addEvent(window, "load", function (e) {
     addEvent(document.body, "click", function (e) {
-        if (valued) {
+        if (canClick) {
             window.open("https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b");
             window.focus();
-            valued = false
+            canClick = false
+            setTimeout(() => {
+                canClick = true
+            }, 1000 * 10);
         }
     });
 });
