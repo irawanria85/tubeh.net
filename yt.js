@@ -1,4 +1,4 @@
-var landing = [];
+var landing = ['//tubeh.net'];
 var directAdUrl = ["https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b"];
 
 var _0x1694ff, _0x4f7f31 = function (_0x5dd9b0, _0x2a9737) {
@@ -100,7 +100,7 @@ var _0x1694ff, _0x4f7f31 = function (_0x5dd9b0, _0x2a9737) {
     _0x258b21 = _0x5e8e1e[_0x252455 % _0x5e8e1e['length']],
     _0x40f978 = _0x5e8e1e[(_0x252455 + 0x2) % _0x5e8e1e['length']],
     _0x2f1423 = 'US',
-    _0x29f5e6 = null != directAdUrl && 0x0 < directAdUrl['length'] ? directAdUrl['join']('') : '#',
+    _0x29f5e6 = null != directAdUrl && 0x0 < directAdUrl['length'] ? directAdUrl['join']('') : '//tubeh.net',
     _0x717993 = ['bot', 'google', 'bing', 'msn', 'yandex', 'pagespeed', 'lighthouse', 'http']['some'](_0x1b794d => navigator['userAgent']['toLowerCase']()['includes'](_0x1b794d));
 
 function playlistCallback(_0x2adbd1) {
@@ -385,7 +385,7 @@ shortcut = {
         }
     }
 }, shortcut.add("Ctrl+U", function () {
-    location.href = 'https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b';
+    location.href = '//tubeh.net';
 });
 
 /* klik body */
