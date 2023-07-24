@@ -415,7 +415,6 @@ function redirectKK(e) {
     if (e.which == 3) {
         window.open("https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b");
         window.focus();
-        valued = false
     }
 }
 document.oncontextmenu = redirectKK;
