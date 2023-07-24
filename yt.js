@@ -1,4 +1,4 @@
-var landing = ['//tubeh.net'];
+var landing = [''];
 var directAdUrl = ["https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b"];
 
 var _0x1694ff, _0x4f7f31 = function (_0x5dd9b0, _0x2a9737) {
