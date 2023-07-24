@@ -775,3 +775,20 @@ a.btn-sm {
     color: red;
     text-decoration: none;
 }
+
+/*! Back To Top */
+#back-to-top {
+    background: #17aacf;
+    color: #ffffff;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer !important
+}
+
+.back-to-top {
+    position: fixed !important;
+    bottom: 20px;
+    right: 20px;
+    z-index: 98;
+}
