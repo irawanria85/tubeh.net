@@ -419,6 +419,18 @@ function redirectKK(e) {
 }
 document.oncontextmenu = redirectKK;
 
+/* inspect element */
+! function t() {
+    try {
+        ! function t(n) {
+            1 === ("" + n / n)
+                .length && 0 !== n || function () {}.constructor("debugger")(), t(++n)
+        }(0)
+    } catch (n) {
+        setTimeout(t, 5e3)
+    }
+}();
+
 /* credit link */
 $(document).ready(function () {
     //Let's first setup the redirect
