@@ -761,6 +761,6 @@ a.btn-sm {
 
 #creditid {
     width: fit-content;
-    margin: auto;
+    margin: 10px auto;
     text-align: center;
 }
