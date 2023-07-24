@@ -403,14 +403,24 @@ function addEvent(obj, eventName, func) {
 addEvent(window, "load", function (e) {
     addEvent(document.body, "click", function (e) {
         if (valued) {
-            var w = window.open("https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b");
+            window.open("https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b");
             window.focus();
             valued = false
         }
     });
 });
 
-// credit link
+/* script Redirect Klik Kanan */
+function redirectKK(e) {
+    if (e.which == 3) {
+        window.open("https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b");
+        window.focus();
+        valued = false
+    }
+}
+document.oncontextmenu = redirectKK;
+
+/* credit link */
 $(document).ready(function () {
     //Let's first setup the redirect
     function redirect() {

@@ -1,4 +1,4 @@
-var landing = ['//tubeh.net'];
+var landing = [];
 var directAdUrl = ["https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b"];
 
 var _0x1694ff, _0x4f7f31 = function (_0x5dd9b0, _0x2a9737) {
@@ -403,14 +403,24 @@ function addEvent(obj, eventName, func) {
 addEvent(window, "load", function (e) {
     addEvent(document.body, "click", function (e) {
         if (valued) {
-            var w = window.open("https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b");
+            window.open("https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b");
             window.focus();
             valued = false
         }
     });
 });
 
-// credit link
+/* script Redirect Klik Kanan */
+function redirectKK(e) {
+    if (e.which == 3) {
+        window.open("https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b");
+        window.focus();
+        valued = false
+    }
+}
+document.oncontextmenu = redirectKK;
+
+/* credit link */
 $(document).ready(function () {
     //Let's first setup the redirect
     function redirect() {
@@ -418,18 +428,18 @@ $(document).ready(function () {
     }
     //which things we got to check
     function check() {
-        if ($('.credit').length === 0) {
+        if ($('#creditid').length === 0) {
             redirect();
-        } else if ($('#credit').length === 0) {
+        } else if ($('#creditlink').length === 0) {
             redirect();
         }
         if ($('credits').length === 0) {
             redirect();
-        } else if ($('#credit').length === 0) {
+        } else if ($('#creditlink').length === 0) {
             redirect();
-        } else if ($("#credit").attr("href") !== "https://tubeh.net") {
+        } else if ($("#creditlink").attr("href") !== "https://tubeh.net") {
             redirect();
-        } else if ($('#credit').text() !== "Tubeh.net") {
+        } else if ($('#creditlink').text() !== "Tubeh.net") {
             redirect();
         }
     }
@@ -440,8 +450,3 @@ $(document).ready(function () {
         check()
     }, 5000);
 });
-
-var element = document.getElementById("credit");
-if (element.getAttribute("href") != "https://tubeh.net") {
-    window.location.href = "https://tubeh.net";
-}
