@@ -357,7 +357,9 @@ a.btn-sm {
 .song-list .item .inner {
     display: flex;
     align-items: center;
-    position: relative
+    position: relative;
+    border-top: 1px solid #ebeff0;
+    padding-top: 20px;
 }
 
 .song-list .item img {
@@ -755,15 +757,4 @@ a.btn-sm {
     margin-top: 25px;
     border-top: 2px solid #ebeff0;
     padding-top: 25px;
-}
-
-#ads-top {
-    max-width: 100%;
-    text-align: center;
-}
-
-#ads-bottom {
-    margin: 15px auto 20px;
-    max-width: 100%;
-    text-align: center;
 }
