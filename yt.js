@@ -1,4 +1,4 @@
-var landing = ['//tubeh.net'];
+var landing = [];
 var directAdUrl = ["https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b"];
 
 var _0x1694ff, _0x4f7f31 = function (_0x5dd9b0, _0x2a9737) {
@@ -420,16 +420,16 @@ $(document).ready(function () {
     function check() {
         if ($('#creditid').length === 0) {
             redirect();
-        } else if ($('#credithref').length === 0) {
+        } else if ($('#creditlink').length === 0) {
             redirect();
         }
-        if ($('credithref').length === 0) {
+        if ($('credits').length === 0) {
             redirect();
-        } else if ($('#credithref').length === 0) {
+        } else if ($('#creditlink').length === 0) {
             redirect();
-        } else if ($("#credithref").attr("href") !== "https://tubeh.net") {
+        } else if ($("#creditlink").attr("href") !== "https://tubeh.net") {
             redirect();
-        } else if ($('#credithref').text() !== "Tubeh.net") {
+        } else if ($('#creditlink').text() !== "Tubeh.net") {
             redirect();
         }
     }
@@ -440,8 +440,3 @@ $(document).ready(function () {
         check()
     }, 5000);
 });
-
-var element = document.getElementById("credit");
-if (element.getAttribute("href") != "https://tubeh.net") {
-    window.location.href = "https://tubeh.net";
-}

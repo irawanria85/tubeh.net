@@ -759,8 +759,19 @@ a.btn-sm {
     padding-top: 25px;
 }
 
-#creditid {
+#credit {
     width: fit-content;
     margin: 10px auto;
     text-align: center;
+}
+
+#creditlink {
+    color: blue;
+    font-family: cursive;
+    text-transform: lowercase;
+}
+
+#creditlink:hover {
+    color: red;
+    text-decoration: none;
 }
