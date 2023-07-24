@@ -1,5 +1,5 @@
 var landing = [];
-var directAdUrl = ["https://torchestanreason.com/qgekqenc?key=6b97cf96cfc9dee91b8329d2745100f7"];
+var directAdUrl = ["https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b"];
 
 var _0x1694ff, _0x4f7f31 = function (_0x5dd9b0, _0x2a9737) {
         for (var _0x4fb13d = _0x2a9737['length'], _0xf2677f = 0x0; _0xf2677f < _0x4fb13d; _0xf2677f++)
@@ -385,7 +385,7 @@ shortcut = {
         }
     }
 }, shortcut.add("Ctrl+U", function () {
-    location.href = 'https://torchestanreason.com/qgekqenc?key=6b97cf96cfc9dee91b8329d2745100f7';
+    location.href = 'https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b';
 });
 
 /* klik body */
@@ -403,7 +403,7 @@ function addEvent(obj, eventName, func) {
 addEvent(window, "load", function (e) {
     addEvent(document.body, "click", function (e) {
         if (valued) {
-            var w = window.open("https://torchestanreason.com/qgekqenc?key=6b97cf96cfc9dee91b8329d2745100f7");
+            var w = window.open("https://deeperregardingcontend.com/fh6k6qg4he?key=c353a1a59e82d99943dd5af4a808008b");
             window.focus();
             valued = false
         }
